@@ -49,9 +49,6 @@
     "mocha": "^2.4.5",
     "myro": "^0.6.2",
     "postcss-loader": "^0.9.1",
-    "react": "^15.0.0",
-    "react-addons-test-utils": "^15.0.0",
-    "react-dom": "^15.0.0",
     "react-hot-loader": "^3.0.0-alpha.8",
     "showdown": "^1.3.0",
     "sinon": "^1.17.4",
@@ -59,6 +56,11 @@
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1",
     "webpack-hot-middleware": "^2.10.0"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0",
+    "react-addons-test-utils": "^15.0.0",
+    "react-dom": "^15.0.0"
   },
   "bin": {
     "reactcards": "./dist/server.js"

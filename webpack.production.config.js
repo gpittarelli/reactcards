@@ -13,6 +13,12 @@ module.exports = {
         libraryTarget: 'umd'
     },
 
+    externals: {
+        "react": "commonjs react",
+        "react-dom": "commonjs react-dom",
+        "react-addons-test-utils": "commonjs react-addons-test-utils"
+    },
+
     module: {
         loaders: [
             {
